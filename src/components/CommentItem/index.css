@@ -27,3 +27,41 @@
 }
 
 /* Write your CSS here */
+.eachComment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameTime {
+  display: flex;
+}
+
+.nameText {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.likeBtn {
+  background-color: transparent;
+  border-width: 0px;
+  align-self: flex-start;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.initialContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-width: 30px;
+  padding: 15px;
+  border-radius: 1000px;
+  color: #ffffff;
+  font-weight: bold;
+}

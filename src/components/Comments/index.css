@@ -1,4 +1,15 @@
 /* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .input-container {
   display: flex;
   flex-direction: column;
